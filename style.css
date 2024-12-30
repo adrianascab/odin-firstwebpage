@@ -23,17 +23,20 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 350px;
+    flex-wrap: wrap;
+    height: 400px;
 }
 
 .content1 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    width: 380px;
+    height: 150px;
 }
 
 .content1 p {
-    width: 400px;
+    width: 380px;
 }
 
 .header a {
@@ -53,15 +56,12 @@ button {
     border-radius: 7px;
 }
 
-img {
-    background-color: grey;
-    width: 300px;
-}
-
 .mid_section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .mid_section p{
@@ -75,12 +75,101 @@ h2 {
     color: #1f2937
 }
 
+.main_placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 150px;
+    width: 380px;
+}
+
 .mid_content1 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 20px
 }
 
+.mid_content1 .placeholder {
+    background-color: gray;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.mid_content1 p {
+    width: 140px;
+}
+
 .mid_content1 div {
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 440px;
+}
+
+.quote_section p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 730px;
+    align-self: center;
+}
+
+h6 {
+    width: 730px;
+    color: #1f2937;
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+#blue_square {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    height: 100px;
+    width: 900px;
+    justify-content: space-evenly;
+}
+
+#blue_square div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+#blue_square button {
+    border-color: white;
+    border-radius: 10px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 60px;
 }
